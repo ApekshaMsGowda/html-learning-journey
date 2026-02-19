@@ -1,0 +1,28 @@
+
+body{
+    background-color:beige;
+}
+h1{
+    color:blue;
+}
+p{
+    color:rgb(97, 96, 96);
+}
+q{
+    color:brown;
+}
+a{
+    color:purple;
+}
+.card{
+    background-color: white;
+    text-align:center;
+    border:2px solid blue;
+    padding:50px;
+    margin:50px auto;
+    border-radius:20px;
+    width:400px;
+}
+a:hover{
+    color:red;
+}

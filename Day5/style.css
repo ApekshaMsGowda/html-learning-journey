@@ -1,0 +1,19 @@
+table,th,td{
+    border:2px solid black;
+    border-collapse:collapse;
+    
+}
+th,td{
+    padding:10px;
+    text-align: center;
+}
+th{
+    background-color:blanchedalmond;
+    
+}
+tr:hover{
+    background: lightgray;
+}
+table{
+    margin:30px auto;
+}

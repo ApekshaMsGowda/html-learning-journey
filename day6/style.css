@@ -1,0 +1,27 @@
+.whole{
+    display:flex;
+}
+.sidebar{
+    width:200px;
+    background-color:#f4f4f4 ;
+}
+.content{
+   flex:1;
+   padding:15px;
+}
+.sidebar ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+.sidebar li{
+    padding:10px;
+    border-bottom:1px solid #CCC;
+}
+.sidebar a:hover{
+    background-color: rgb(230, 231, 232);
+}
+.sidebar a{
+    color:black;
+    display:block;
+}

@@ -1,0 +1,38 @@
+#main{
+    text-align: center;
+    color:rgb(138, 58, 1);
+    margin-bottom: 30px;
+}
+.mainclass{
+    display:flex;
+}
+.course{
+    color:brown;
+    background-color: beige;
+    border:2px solid burlywood;
+    flex:1;
+    margin: 16px;
+    padding:20px;
+    border-radius: 15px;
+    text-align:center;
+    height:250px;
+}
+.enroll{
+    display: block;
+    background-color: cadetblue;
+    color:aliceblue;
+    margin:15px auto;
+}
+.featured{
+    background-color: pink;
+    color:darkgreen;
+}
+.enroll:hover{
+    background-color: limegreen;
+    cursor: pointer;
+    transition:0.3s;
+}
+.price{
+    color:darkorchid;
+    font-size: large;
+}

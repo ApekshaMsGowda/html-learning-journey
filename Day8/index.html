@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini course</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+    <h1>Frontend Learning Hub</h1>
+    <button class="button" onclick="showHTML()">HTML</button>
+    <button class="button" onclick="showCSS()">CSS</button>
+    <button class="button" onclick="showJS()">JavaScript</button>
+    <p id="info" class="details">Click a button to see details.</p>
+    <script>
+        function showHTML(){
+            document.getElementById("info").innerHTML="HTML is the structure of web pages.";
+        }
+        function showCSS(){
+            document.getElementById("info").innerHTML="CSS is used to style the web pages";
+        }
+        function showJS(){
+            document.getElementById("info").innerHTML="JavaScript is used to make the web pages interactive";
+        }
+
+    </script>
+    <iframe src="https://www.youtube.com/embed/qz0aGYrrlhU" title="youtube video player" width="400" height="250" allowfullscreen ></iframe>
+    <br>
+    <img src="images/logo.png" width="100" alt="Logo image">
+    </div>
+</body>
+</html>

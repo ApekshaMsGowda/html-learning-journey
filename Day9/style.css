@@ -1,0 +1,36 @@
+header{
+    background-color: lightgray;
+    font-size:30px ;
+    text-align: center;
+    padding:20px;
+}
+nav{
+    background-color:darkkhaki;
+    text-align: center;
+    width: 20%;
+}
+
+nav a:hover{
+    background-color: antiquewhite;
+}
+ul{
+    list-style-type: none;
+}
+section{
+    display:flex;
+}
+
+article{
+    width:60%;
+    background-color: antiquewhite;
+    margin: 35px;
+    padding: 10px;
+}
+aside{
+    width:20%;
+}
+footer{
+    background-color: lightgray;
+    text-align: center;
+    padding:4px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div class="change">
+        <h1>Student Register Form</h1>
+    <form action="#" method="post">
+        
+        <label>Full Name:</label><br>
+        <input type="text" name="FullName" placeholder="Enter Your Name" required><br><br>
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+        <label>Password:</label><br>
+        <input type="password" name="password" required ><br><br>
+        <label>Phone Number:</label><br>
+        <input type="tel" name="phoneNo" maxlength="10" pattern="[0-9]{10}"><br><br>
+        <label>Country:</label><br>
+        <input type="text" value="India" readonly><br><br>
+        <label>Date Of Birth:</label><br>
+        <input type="date" name="birthday" min="2002-01-01" max="2008-01-01"><br><br>
+        <label>Gender:</label><br>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female<br><br>
+        <label>Select Course:</label>
+        <select name="Course">
+            <option>Frontend Development</option>
+            <option>Backend Development</option>
+            <option> Full Stack</option>
+        </select><br><br>
+        <label>Skills:</label><br>
+        <input type="checkbox" name="skill">HTML<br>
+        <input type="checkbox" name="skill">CSS<br>
+        <input type="checkbox" name="skill">JavaScript<br><br>
+        <label>Select Course:</label>
+     
+        <label>Upload photo</label><br>
+        <input type="file"><br><br>
+        <label>Address:</label><br>
+        <textarea rows="4"></textarea><br><br><br>
+        <button type="submit">Register</button>
+        <button type="reset">Clear</button>
+   
+    </form>
+    </div>
+</body>
+</html>
